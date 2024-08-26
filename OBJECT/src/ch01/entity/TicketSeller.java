@@ -1,4 +1,4 @@
-package Ch01.entity;
+package ch01.entity;
 
 /**
  * 매표소에서 초대장을 티켓으로 교환해 주거나 티켓을 판매하는 역할을 하는 판매원 클래스

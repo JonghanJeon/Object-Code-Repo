@@ -1,6 +1,4 @@
-package Ch01.entity;
-
-import java.util.logging.Logger;
+package ch01.entity;
 
 /**
  * 관람객이 소지품을 보관할 Bag 클래스

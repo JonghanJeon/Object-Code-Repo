@@ -1,4 +1,4 @@
-package Ch01.entity;
+package ch01.entity;
 
 /**
  * 티켓 클래스

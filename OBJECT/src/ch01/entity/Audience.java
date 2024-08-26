@@ -1,4 +1,4 @@
-package Ch01.entity;
+package ch01.entity;
 
 /**
  * 관람객 클래스

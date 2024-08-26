@@ -1,4 +1,4 @@
-package Ch01.entity;
+package ch01.entity;
 
 /**
  * 소극장을 구현하는 클래스
