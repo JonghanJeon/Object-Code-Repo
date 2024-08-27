@@ -3,10 +3,10 @@ package ch02.entity.discount;
 import ch02.entity.Money;
 import ch02.entity.Screening;
 
-public class PercentDiscountPolicy extends DiscountPolicy {
+public class PercentDefaultDiscountPolicy extends DefaultDiscountPolicy {
 	private double percent;
 
-	public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {
+	public PercentDefaultDiscountPolicy(double percent, DiscountCondition... conditions) {
 		super(conditions);
 		this.percent = percent;
 	}
