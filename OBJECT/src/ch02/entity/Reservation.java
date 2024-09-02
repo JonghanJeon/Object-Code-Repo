@@ -1,5 +1,7 @@
 package ch02.entity;
 
+import ch04.dataMain.entity.Customer;
+
 /**
  * 고객(customer)
  * 상영 정보(screening)

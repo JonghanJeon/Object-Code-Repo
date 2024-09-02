@@ -2,6 +2,8 @@ package ch02.entity;
 
 import java.time.LocalDateTime;
 
+import ch04.dataMain.entity.Customer;
+
 /**
  * 상영할 영화(movie)
  * 순번(sequence)
@@ -37,7 +39,7 @@ public class Screening {
 		return new Reservation(customer, this, calculateFee(audienceCount), audienceCount);
 	}
 
-	private Money caculateFee(int audienceCount) {
+	private Money calculateFee(int audienceCount) {
 		return movie.calculateMovieFee(this).times(audienceCount);
 	}
 }
